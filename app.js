@@ -60,7 +60,7 @@ app.get("/posts/:postTitle", function (req, res) {
         title: post.title,
         content: post.content,
       });
-    };
+    }
   });
 });
 
